@@ -31,13 +31,29 @@ This project analyzes CRM sales opportunities to understand deal performance, wi
 ## Project Structure
 
 ```text
-├── dashboard/       # Power BI report
-├── data/            # Calculated sales KPI data
-├── cleaned_data/    # Cleaned datasets
-├── python/          # Python analysis and reporting scripts
-├── reports/         # AI-generated executive report
-├── requirements.txt # Python dependencies
-└── README.md        # Project documentation
+## Project Structure
+
+```text
+├── data/
+│   └── sales_kpis.json
+├── python/
+│   ├── clean_sales_data.py
+│   ├── export_sales_kpis.py
+│   ├── fetch_sales_kpis.py
+│   ├── generate_ai_report.py
+│   ├── inspect_dataset.py
+│   ├── sales_kpi_analysis.py
+│   ├── sales_performance_analysis.py
+│   ├── test_gemini_api.py
+│   └── test_sql_connection.py
+├── reports/
+│   └── Executive_Sales_Performance_Report.md
+├── .gitignore
+├── requirements.txt
+└── README.md
+```
+
+**Note:** The Power BI `.pbix` report and raw/cleaned datasets are not included in this public repository because the report contains imported data and dataset redistribution permissions have not been confirmed.
 ```
 
 ## Dataset
