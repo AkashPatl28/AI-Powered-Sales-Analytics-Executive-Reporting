@@ -1,0 +1,21 @@
+
+# Source and cleaned datasets - do not upload
+CRM+Sales+Opportunities/
+cleaned_data/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration
+*.log
+
+# Power BI report may contain imported dataset
+dashboard/*.pbix
